@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+}
+
+#nav_bar {
+  float: right;
+  font-size: 13px;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#nav_bar #sign_in {
+  background: #4887ef;
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.nav-links {
+  color: #5f6368;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sign_in {
+  color: #fff;
+}
+
+img {
+  max-width: auto;
+  height: 100px;
+}
+.google {
+  display: flex;
+}
+.google #google_logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+}
+.form > form {
+  margin: 0 auto;
+  width: 582px;
+}
+.form-label {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  margin: 0 auto;
+  padding-top: 4px;
+  width: 100%;
+}
+
+.form-input {
+  border: 0;
+  display: flex;
+  height: 34px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+}
+.buttons > input {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  cursor: pointer;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  background: #f2f2f2;
+  border-top: solid 1px #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+#footBottom {
+  background: #f2f2f2;
+  display: block;
+  border-top: solid 1px #e4e4e4;
+}
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+  background: #f2f2f2;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+  background: #f2f2f2;
+}
+.footer-top {
+  color: rgba(0,0,0,.54);
+  font-size: 15px;
+    line-height: 7px;
+}
+.footer-top p {
+  padding-left: 30px;
+}
+.footer-left {
+  background: #f2f2f2;
+    padding-left: 17px;
+}
+.footer-right {
+  float: right;
+  background: #f2f2f2;
+    padding-right: 20px;
+}
